@@ -12,17 +12,41 @@ body{
     justify-content: center;
 }
 
-.header{
+header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
     margin: 2% 4%;
-
 }
 
 
-.header h1 {
+header h1 {
+    display: flex;
     font-size: 2.5rem;
     color: var(--color6);
+}
+
+.navbar{
+    display: flex;
+    align-items: end;
+}
+
+nav ul{
+    display: flex;
+    align-items: end;
+    list-style: none;
+    gap: 20px;
+    align-items: end;
+}
+
+nav ul li a{
+    align-items: end;
+    text-decoration: none;
+    color: #cdcdcd;
+    transition: var(--transition);
+}
+
+nav ul li a:hover{
+    color: var(--primary-color);
 }
