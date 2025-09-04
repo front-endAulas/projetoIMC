@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 0;
+}
+
+:root{
+    --color1: #000000;
+    --color2: #001f36;
+    --color3: #1c5560;
+    --color4: #79ae92;
+    --color5: #fbffcd;
+    --color6: #2a7180;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: #001f36; */
+    /* background: url(../assets/img/fundoPlanetas.gif); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 2px;
+    width: 37%;
+}
+.apresentacao h2{
+    font-size: 1.2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+form h1{
+    font-size: 1.6rem;
+}
+
+label{
+    color: var(--ligth);
+    font-weight: 700;
+}
+label span{
+    font-size: 1.2rem;
+}
+
+input{
+    display: flex;
+    margin-top: 4px;
+    width: 100%;
+    padding: 5px;
+    color: #2a7180;
+    background: #57343422;
+    border-radius: 15px;
+}
+
+button{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 30px;
+    font-weight: 600;
+    color: var(--ligth);
+    border: none;
+    border-radius: 15px;
+    background: var(--primary-color);
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: 0px 0px 10px 2px #00000068;
+}
