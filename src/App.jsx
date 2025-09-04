@@ -2,7 +2,7 @@ import { useState } from "react"
 import Header from "./components/Header"
 import Resultado from "./components/Resultado"
 import Footer from "./components/Footer"
-// import './css/estilo.css'
+import './css/estilo.css'
 
 function App() {
 
@@ -29,6 +29,7 @@ function App() {
     <div className="container">
       <Header/>
       <div className="box">
+
         <div className="apresentacao">
           <h2>
             O Índice de Massa Corporal (IMC) é uma medida que relaciona o peso e a altura de uma pessoa. Ele é utilizado para indicar se o peso está dentro do recomendado para a saúde, ajudando a identificar situações de baixo peso, sobrepeso ou obesidade.
