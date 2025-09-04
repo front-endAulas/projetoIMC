@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Header from "./components/Header"
 import Resultado from "./components/Resultado"
+import Footer from "./components/Footer"
 // import './css/estilo.css'
 
 function App() {
@@ -69,6 +70,9 @@ function App() {
         </form>
 
       </div>
+
+      <Footer/>
+
     </div>
   )
 }
