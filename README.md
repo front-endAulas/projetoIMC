@@ -1,12 +1,35 @@
-# React + Vite
+# 🧮 Calculadora de IMC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma **Calculadora de IMC (Índice de Massa Corporal)** desenvolvida com foco em simplicidade e praticidade.  
+O IMC é uma medida que relaciona **peso e altura**, ajudando a identificar situações de **baixo peso, peso normal, sobrepeso ou obesidade**.
 
-Currently, two official plugins are available:
+> ⚠️ Importante: O cálculo do IMC é apenas um **indicativo** e não substitui a avaliação feita por um **profissional de saúde**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Inserir **altura (m)** e **peso (kg)**.
+- Calcular o **IMC automaticamente**.
+- Exibir o resultado com **classificação**:
+  - Baixo peso
+  - Peso normal
+  - Sobrepeso
+  - Obesidade
+- Interface simples, intuitiva e responsiva.
+
+---
+
+## 📸 Demonstração
+
+👉 [Acesse o site aqui](https://projeto-imc-7udu.vercel.app)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- ⚛️ React 
+- ⚡ Vite 
+- 🎨 CSS3  
+- 🌐 Vercel
+- 🧑‍💻 Git/GitHub  
