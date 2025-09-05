@@ -24,7 +24,7 @@ header{
 header h1 {
     display: flex;
     font-size: 2.5rem;
-    color: var(--color6);
+    color: var(--texto);
 }
 
 .navbar{
@@ -43,10 +43,9 @@ nav ul{
 nav ul li a{
     align-items: end;
     text-decoration: none;
-    color: #cdcdcd;
-    transition: var(--transition);
+    color: var(--texto);
 }
 
 nav ul li a:hover{
-    color: var(--primary-color);
+    color: var(--destaque);
 }

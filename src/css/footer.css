@@ -13,7 +13,7 @@ body{
 }
 
 footer{
-    border-top: 1px solid #181717;
+    border-top: 1px solid var(--cinzaclaro);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,19 +26,21 @@ footer{
 
 
 footer h1{
+    margin-top: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     font-size: 1.7rem;
+    color: var(--texto);
 }
 
 .redes-sociais{
     display: flex;
     gap: 20%;
+    margin-bottom: 3px;
 }
 .redes-sociais a{
-    color: #000000;
     font-size: 1.8rem;
-
+    color: var(--texto);
 }
 .redes-sociais a:hover{
-
+    color: var(--destaque);
 }

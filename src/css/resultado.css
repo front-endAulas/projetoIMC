@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 0;
+}
+
+.tabela h2 {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    color: #c4c4c4;
+}
+
+.tabela {
+    margin: 0 auto;
+}
+
+.tabelaHeader th {
+    background-color: var(--terciaria);
+    color: #c4c4c4;
+    padding: 8px;
+}
+
+.tabelaBody td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: #c4c4c4;
+}

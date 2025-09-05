@@ -6,12 +6,15 @@
 }
 
 :root{
-    --color1: #000000;
-    --color2: #001f36;
-    --color3: #1c5560;
-    --color4: #79ae92;
-    --color5: #fbffcd;
-    --color6: #2a7180;
+    --secundaria: #9a9a9a;
+    --destaque: #66B2B2;
+    --cinzaclaro: #a3a3a3;
+    --cinzamedio: #999999;
+    --cinzaescuro: #a1a1a1;
+    --texto: #b1b0b0;
+    --terciaria: #173434;
+    --textoescuro: #222222;
+    --destaquebotao: #2d5858;
 }
 
 body{
@@ -19,20 +22,16 @@ body{
     flex-direction: column;
     align-items: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* background: #001f36; */
-    /* background: url(../assets/img/fundoPlanetas.gif); */
+    background-image: url(../assets/img/fundoEspacial.gif);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.container{
-
 }
 
 .box{
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
+    margin-top: 100px;
 }
 
 .apresentacao{
@@ -41,24 +40,40 @@ body{
     margin-top: 20px;
     gap: 2px;
     width: 37%;
+    justify-content: center;
+    width: 600px;
+    height: fit-content;
+    padding: 15px;
+    background: var(--terciaria);
+    backdrop-filter: blur(5px);
+    border: 1px solid #161616a2;
+    border-radius: 30px;
 }
 .apresentacao h2{
     font-size: 1.2rem;
+    color: var(--texto);
 }
 
 form{
+    justify-content: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
-
+    width: 430px;
+    height: fit-content;
+    padding: 15px;
+    background: var(--terciaria);
+    backdrop-filter: blur(5px);
+    border: 1px solid #161616a2;
+    border-radius: 30px;
+    gap: 5px;
 }
 form h1{
     font-size: 1.6rem;
+    color: var(--texto);
 }
 
 label{
-    color: var(--ligth);
+    color: var(--texto);
     font-weight: 700;
 }
 label span{
@@ -70,9 +85,14 @@ input{
     margin-top: 4px;
     width: 100%;
     padding: 5px;
-    color: #2a7180;
-    background: #57343422;
+    color: var(--textoescuro);
+    background: var(--cinzaclaro);
     border-radius: 15px;
+}
+input::placeholder {
+  color: var(--textoescuro); 
+  font-size: 13.5px;         
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 button{
@@ -83,11 +103,13 @@ button{
     width: 250px;
     height: 30px;
     font-weight: 600;
-    color: var(--ligth);
+    color: var(--texto);
     border: none;
     border-radius: 15px;
-    background: var(--primary-color);
+    background: var(--primaria);
     cursor: pointer;
-    transition: var(--transition);
     box-shadow: 0px 0px 10px 2px #00000068;
+}
+button:hover{
+    background: var(--destaquebotao);
 }
