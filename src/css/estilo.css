@@ -6,15 +6,14 @@
 }
 
 :root{
-    --secundaria: #9a9a9a;
+    --secundaria: #5f5f5f;
     --destaque: #66B2B2;
     --cinzaclaro: #a3a3a3;
     --cinzamedio: #999999;
-    --cinzaescuro: #a1a1a1;
     --texto: #b1b0b0;
     --terciaria: #173434;
-    --textoescuro: #222222;
-    --destaquebotao: #2d5858;
+    --textoescuro: #1d1d1d;
+    --destaquebotao: #224d4d;
 }
 
 body{
