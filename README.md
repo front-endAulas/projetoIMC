@@ -1,3 +1,10 @@
+# Autor do Projeto
+
+- Nome: Yan Breno Barutti Conceição
+- RM: 566412
+- Link do repositório: https://github.com/front-endAulas/projetoIMC
+- Link do Vercel: https://projeto-imc-7udu.vercel.app
+
 # 🧮 Calculadora de IMC
 
 Este projeto é uma **Calculadora de IMC (Índice de Massa Corporal)** desenvolvida com foco em simplicidade e praticidade.  
